@@ -1,32 +1,57 @@
 nav,
 .nav {
     color: white;
-    background: linear-gradient(aqua, black);
+    background-color: black;
 }
 
 main,
 .main {
-    background: linear-gradient(aqua, rgb(211, 25, 25));
+    background: linear-gradient(#A6ADF2, black);
+    color: white;
+    
+    /* background: linear-gradient(#A6ADF2, black); */
 }
 
 .banner {
     width: 100%;
     height: auto;
 }
-
+form {
+    text-align: left;
+}
 .btn1 {
-    color: green;
-    background-color: red;
+    color: black;
+    background-color: white;
+    font-weight: bold;  
 }
 
 .btn2 {
-    color: crimson;
-    background-color: green;
+    color: black;
+    background-color: white;
+    font-weight: bold;  
+}
+
+section {
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 5px 5px 5px;
+    width:fit-content;
+}
+
+.link {
+    color: #A6ADF2;
+}
+
+.link2 {
+    color: black;
 }
 
 footer,
 .footer {
-    background: linear-gradient(to top, aqua, black);
+    background: linear-gradient(to top, #A6ADF2, black);
     color: white;
 }
 
